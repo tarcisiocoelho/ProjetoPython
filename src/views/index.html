@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Pagina</title>
+</head>
+<body>
+    <div class="bg-info p-5" style="height: 100vh;">
+        <div class="container border p-4 bg-white" style="border-radius: 30px;">
+            <h1 class="display-4 text-center">Soma</h1>
+            <hr />
+
+            <form action="" method="POST">  
+                <input class="form-control mb-2" type="number" name="num1" id="num1" placeholder="Digite um número">
+                <input class="form-control mb-2" type="number" name="num2" id="num2" placeholder="Digite um número">
+
+                <input type="radio" name="opc" id="soma" value="soma" checked>
+                <label for="soma">Soma</label>
+
+                <input type="radio" name="opc" id="subt" value="subtrair">
+                <label for="subt">Subtrair</label>
+
+                <input type="radio" name="opc" id="mult" value="multiplicar">
+                <label for="mult">Multiplicação</label>
+
+                <input type="radio" name="opc" id="divi"  value="dividir">
+                <label for="divi">Divisão</label>
+
+
+                <br />
+                <br />
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-secondary">Apagar</button>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
